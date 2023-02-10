@@ -11,3 +11,23 @@ All classes & fuctions are defined in [link](https://github.com/MPGarg/common_re
 
 In notebook EVA8_Assigment_7.ipynb [link](EVA8_Assigment_7.ipynb) functions from main repository are called. Model ResNet18 is trained for 20 Epochs on CIFAR10 dataset with 94.27% training and 86.56% testing accuracy.
 
+### Training Log:
+
+Last Few Epochs
+
+![image](https://user-images.githubusercontent.com/120099863/217988018-1ba94527-4a42-42d3-a8a5-3696dd59a2e7.png)
+
+### Accuracy & Loss Curve
+
+![image](https://user-images.githubusercontent.com/120099863/217988229-25b02352-fa6c-49ff-b9af-ec8164fb2c6d.png)
+
+### Misclassified Images
+
+![image](https://user-images.githubusercontent.com/120099863/217988355-fe8aeb54-8f19-46a8-85b6-6e2c5bedcbad.png)
+
+### GradCam Output
+
+![image](https://user-images.githubusercontent.com/120099863/217988491-60008c63-7fc4-421e-ab8b-25f854fc375b.png)
+
+
+
