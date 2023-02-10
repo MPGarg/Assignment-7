@@ -7,9 +7,9 @@
 
 ## Code Details
 
-All classes & fuctions are defined in [link](https://github.com/MPGarg/common_repo). 
+All classes & functions are defined in [link](https://github.com/MPGarg/common_repo). 
 
-In notebook EVA8_Assigment_7.ipynb [link](EVA8_Assigment_7.ipynb) functions from main repository are called. Model ResNet18 is trained for 20 Epochs on CIFAR10 dataset with 94.27% training and 86.56% testing accuracy.
+In notebook EVA8_Assigment_7.ipynb [link](EVA8_Assigment_7.ipynb) functions from the main repository are called. Model ResNet18 is trained for 20 Epochs on CIFAR10 dataset with 94.27% training and 86.56% testing accuracy.
 
 ### Training Log:
 
@@ -29,5 +29,10 @@ Last Few Epochs
 
 ![image](https://user-images.githubusercontent.com/120099863/217988491-60008c63-7fc4-421e-ab8b-25f854fc375b.png)
 
+## Conclusion
 
+* It can be seen via GradCam images what the network is seeing while predicting class
+* For some images it is looking beyond the main object & detecting non-similar objects. Like predicting bird instead of deer
+* In some images it is getting confused between cat & dog, deer & horse
+* In some cases it is covering extra areas & predicting wrongly. For e.g. plane instead of horse
 
